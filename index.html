@@ -1,13 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Add resposiveness-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Syed's Portfolio</title>
+    <!--Link CSS stylesheet to add styling to respective
+    id's and classes-->
     <link rel="stylesheet" href="assets/css/main.css"/>
 </head>
+
+<!--Main Content of the WebPage; namely, employee information-->
 <body>
     
+<header>
+   <!--Header -> Employee Name is most important as
+    user does not know --> 
+   <h1>Syed Jamil</h1>
+
+    <!--Link Declaration-->
+    <nav> 
+        <ul> <!--Unordered ;isting of links to respective sections containing employee info-->
+            <li></li> <!--Link to About Me Sectioh-->
+            <li></li> <!--Link to Work Experience Section-->
+            <li></li> <!--Link to Contact Info-->
+            <li></li> <!--Resume Link-->
+        </ul>
+    </nav>
+</header>
+
+    <!-- Employee Image  -->
+<section class="Employee-Image-Section">        
+    <figure class = "employee image">
+        <img src="assets/images/Pic.png" alt= "Syed's Photo"> <!--employee image named "Syed's Photo"-->
+    </figure>
+        
+</section>
+
+ <!-- About Me section -->
+ <section id="about-me" class="about">
+    <div class="flex-row">
+      <h2 class="section-title">About Me</h2> 
+    </div>
+    <div class="step-info">
+        <div class="vl-border1">
+    </div>
+        <div class="step-text">
+            <p>
+                <!--Short Description-->
+            </p>
+        </div>
+ </section>
+
+ 
+ <!-- Work section -->
+<section id="work" class="about">
+    <div class="flex-row ">
+      <h2 class="section-title">Work done</h2> 
+    </div>
+    <div class="step-info">
+        <div class="vl-border2">
+        </div>
+        <!--CSS grid of images-->
+        <div class="container">
+           <div class="gallery">                       
+            <figure class="gallery__item gallery__item--1">
+                <a href="https://uot-project1-group07.github.io/project1-group07/">
+                    <img src="./assets/images/covid.png" class="gallery__img" alt="Run buddy website">
+                    <figcaption>Covid Positivity</br>HTML CSS</figcaption>                 
+                </a>
+                </figure>
+
+              <figure class="gallery__item gallery__item--2">
+                  <a href="https://mnmlize.herokuapp.com/">
+                    <img src="./assets/images/pim.png" class="gallery__img" alt="Website 2">
+                    <figcaption>MNMLIZE</br>Node Express</figcaption>
+                  </a>
+              </figure>
+
+              <figure class="gallery__item gallery__item--3">
+                <a href="https://anagha778.github.io/horiseon/">
+                    <img src="./assets/images/horiseon.png" class="gallery__img" alt="Horiseon website">
+                    <figcaption>Horiseon</br>HTML CSS</figcaption>
+                </a>
+              </figure>
+
+              <figure class="gallery__item gallery__item--4">
+                <a href="#">
+                    <img src="./assets/images/image44.jpg" class="gallery__img" alt="Website 4">
+                    <figcaption>Website 4</br>Mern Stack</figcaption>
+                </a>
+              </figure>
+
+              <figure class="gallery__item gallery__item--5">
+                <a href="#">
+                    <img src="./assets/images/image11.jpg" class="gallery__img" alt="Website 5">
+                    <figcaption>Website 5</br>HTML Stack</figcaption>
+                </a>
+              </figure>
+            </div>
+        </div>
+    </div>
+      </section>
+
+       <!-- Contact me section -->
+       <section id="contact-me" class="about">
+        <div class="flex-row">
+            <h2 class="section-title">Contact Me</h2> 
+        </div>
+    <div class="step-info">
+        <div class="vl-border3">
+        </div>
+        <div class="contact-info">
+        <ul>
+            <!--List item elements-->
+            <li>
+                <a href="#number">647-321-5900</a>   
+            </li>
+            <li>
+                <a href="#website.com">anagha@website.com</a>   
+            </li>
+            <li>
+                <a href="#githb">GitHub</a>   
+            </li>
+            <li>
+                <a href="#twitter">Twitter</a>
+            </li>
+            <li>
+                <a href="#spotify">Spotify</a>   
+            </li>                    
+        </ul>
+        </div>
+    </section>        
 </body>
 </html>
