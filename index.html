@@ -13,7 +13,7 @@
 <!--Main Content of the WebPage; namely, employee information-->
 <body>
     
-<header>
+    <header>
    <!--Header -> Employee Name is most important as
     user does not know --> 
    <h1>Syed Jamil</h1>
@@ -27,15 +27,17 @@
             <li></li> <!--Resume Link-->
         </ul>
     </nav>
-</header>
+    </header>
 
     <!-- Employee Image  -->
-<section class="Employee-Image-Section">        
-    <figure class = "employee image">
-        <img src="assets/images/Pic.png" alt= "Syed's Photo"> <!--employee image named "Syed's Photo"-->
-    </figure>
-        
-</section>
+    <section class="Employee-Image-Section">        
+        <figure class = "employee image">
+             <img src=> <!--employee image named "Syed's Photo"-->
+        </figure> 
+    </section>
+
+    <!--Create each idividual section with borders
+        and add respective content-->
 
  <!-- About Me section -->
  <section id="about-me" class="about">
@@ -43,23 +45,25 @@
       <h2 class="section-title">About Me</h2> 
     </div>
     <div class="step-info">
-        <div class="vl-border1">
-    </div>
-        <div class="step-text">
+        
+        <div class="border1"></div>
+        
+        <section class="step-text">
             <p>
-                <!--Short Description-->
+               This is a short paragraph about myself.
             </p>
         </div>
  </section>
 
  
+
  <!-- Work section -->
-<section id="work" class="about">
+    <section id="work" class="about">
     <div class="flex-row ">
       <h2 class="section-title">Work done</h2> 
     </div>
     <div class="step-info">
-        <div class="vl-border2">
+        <div class="border2">
         </div>
         <!--CSS grid of images-->
         <div class="container">
@@ -79,9 +83,9 @@
               </figure>
 
               <figure class="gallery__item gallery__item--3">
-                <a href="https://anagha778.github.io/horiseon/">
+                <a href="https://syed4918.github.io/refactoring-html-project/">
                     <img src="./assets/images/horiseon.png" class="gallery__img" alt="Horiseon website">
-                    <figcaption>Horiseon</br>HTML CSS</figcaption>
+                    <figcaption>refactoring-html-project</figcaption>
                 </a>
               </figure>
 
@@ -103,34 +107,27 @@
     </div>
       </section>
 
+
        <!-- Contact me section -->
        <section id="contact-me" class="about">
         <div class="flex-row">
             <h2 class="section-title">Contact Me</h2> 
         </div>
-    <div class="step-info">
-        <div class="vl-border3">
+
+    <section class="step-info">
+        <div class="border3">
         </div>
-        <div class="contact-info">
-        <ul>
-            <!--List item elements-->
-            <li>
-                <a href="#number">647-321-5900</a>   
-            </li>
-            <li>
-                <a href="#website.com">anagha@website.com</a>   
-            </li>
-            <li>
-                <a href="#githb">GitHub</a>   
-            </li>
-            <li>
-                <a href="#twitter">Twitter</a>
-            </li>
-            <li>
-                <a href="#spotify">Spotify</a>   
-            </li>                    
-        </ul>
-        </div>
+        
+        <article class="contact-info">
+            <nav>
+                <!--List item elements-->
+                <ul>
+                    <li><a href="#number">943-742-8105</a></li>
+                    <li> <a href="#website.com">syed@website.com</a></li>
+                    <li><a href="#github">GitHub</a></li>
+                 </ul>                  
+            </nav>
+        </article>
     </section>        
 </body>
 </html>
