@@ -42,4 +42,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./images/02-advanced-css-homework-demo-1.gif)
+![portfolio demo](assets/images/02-advanced-css-homework-demo-1.gif)
